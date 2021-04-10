@@ -1,0 +1,74 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .outContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #ccb8c2;
+  }
+  
+  .innerContainer {
+    width: 20%;
+  }
+  
+  .loginInput {
+    border-radius: 1em;
+    padding: 15px 20px;
+    width: 100%;
+    border-color: #ccb8c2;
+    border-style: hidden;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background:  #8f5ce2;
+      transition: all .3s;
+      padding: 20px;
+      border-radius: 1em;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outContainer {
+      height: 100%;
+    }
+  
+    .innerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
